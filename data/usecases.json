@@ -135,6 +135,39 @@
         "dependencies": [],
         "effortBD": null,
         "effortCustomer": null
+      },
+      {
+        "id": "u9661f3",
+        "stage": "Foundation",
+        "title": "Mathieu van de poeloe",
+        "type": "Core",
+        "delivery": "Guided session",
+        "description": "",
+        "dependencies": [],
+        "effortBD": null,
+        "effortCustomer": null
+      },
+      {
+        "id": "505gm56",
+        "stage": "Foundation",
+        "title": "New step",
+        "type": "Core",
+        "delivery": "Guided session",
+        "description": "",
+        "dependencies": [],
+        "effortBD": null,
+        "effortCustomer": null
+      },
+      {
+        "id": "cdv1c6l",
+        "stage": "Expanding",
+        "title": "Mister Myjagi",
+        "type": "Core",
+        "delivery": "Guided session",
+        "description": "",
+        "dependencies": [],
+        "effortBD": null,
+        "effortCustomer": null
       }
     ]
   },
