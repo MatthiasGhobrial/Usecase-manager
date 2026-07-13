@@ -1,0 +1,689 @@
+[
+  {
+    "id": "xrtqmef",
+    "name": "Application landscape",
+    "colorIdx": 0,
+    "steps": [
+      {
+        "id": "mbf7eq8",
+        "stage": "Foundation",
+        "title": "Convention model",
+        "type": "Cross-cutting",
+        "delivery": "Guided session",
+        "description": "Agree on naming, object types, lifecycle states, and ownership rules.",
+        "dependencies": [],
+        "effortBD": null,
+        "effortCustomer": null
+      },
+      {
+        "id": "cikun5d",
+        "stage": "Foundation",
+        "title": "Import or populate initial landscape",
+        "type": "Core",
+        "delivery": "Guided session",
+        "description": "Load existing application data from CMDB, spreadsheets, or previous tool.",
+        "dependencies": [],
+        "effortBD": null,
+        "effortCustomer": null
+      },
+      {
+        "id": "2zrfxqi",
+        "stage": "Foundation",
+        "title": "Assign ownership per application",
+        "type": "Core",
+        "delivery": "Customer independent",
+        "description": "Record a responsible owner for each application.",
+        "dependencies": [],
+        "effortBD": null,
+        "effortCustomer": null
+      },
+      {
+        "id": "tf8jk6c",
+        "stage": "Foundation",
+        "title": "Set lifecycle status for all applications",
+        "type": "Core",
+        "delivery": "Customer independent",
+        "description": "Tag each application with its current lifecycle state.",
+        "dependencies": [],
+        "effortBD": null,
+        "effortCustomer": null
+      },
+      {
+        "id": "ti58pm8",
+        "stage": "Foundation",
+        "title": "Build and share first landscape view",
+        "type": "Core",
+        "delivery": "Guided session",
+        "description": "Create a landscape overview view or dashboard.",
+        "dependencies": [],
+        "effortBD": null,
+        "effortCustomer": null
+      },
+      {
+        "id": "gicgd1t",
+        "stage": "Foundation",
+        "title": "Map applications to business capabilities",
+        "type": "Contextual",
+        "delivery": "Guided session",
+        "description": "Link each application to the capabilities it supports.",
+        "dependencies": [],
+        "effortBD": null,
+        "effortCustomer": null
+      },
+      {
+        "id": "cxkf1ll",
+        "stage": "Expanding",
+        "title": "Enrich with technical and business attributes",
+        "type": "Core",
+        "delivery": "Customer independent",
+        "description": "Add hosting model, vendor, cost, risk rating.",
+        "dependencies": [],
+        "effortBD": null,
+        "effortCustomer": null
+      },
+      {
+        "id": "3qkli21",
+        "stage": "Expanding",
+        "title": "Map application integrations and dependencies",
+        "type": "Core",
+        "delivery": "Guided session",
+        "description": "Identify and record integration points.",
+        "dependencies": [],
+        "effortBD": null,
+        "effortCustomer": null
+      },
+      {
+        "id": "auhf7s4",
+        "stage": "Expanding",
+        "title": "Establish data maintenance process",
+        "type": "Core",
+        "delivery": "Customer independent",
+        "description": "Define who updates the landscape and how.",
+        "dependencies": [],
+        "effortBD": null,
+        "effortCustomer": null
+      },
+      {
+        "id": "8k0gl2q",
+        "stage": "Expanding",
+        "title": "Reference architecture import or build",
+        "type": "Contextual",
+        "delivery": "Guided session",
+        "description": "Establish a reference architecture and link applications.",
+        "dependencies": [],
+        "effortBD": null,
+        "effortCustomer": null
+      },
+      {
+        "id": "8taadub",
+        "stage": "Optimising",
+        "title": "Build rationalisation analysis",
+        "type": "Core",
+        "delivery": "Guided session",
+        "description": "Identify redundant or consolidation-candidate applications.",
+        "dependencies": [],
+        "effortBD": null,
+        "effortCustomer": null
+      },
+      {
+        "id": "pgkwwy8",
+        "stage": "Optimising",
+        "title": "Embed landscape in governance and decisions",
+        "type": "Core",
+        "delivery": "Guided session",
+        "description": "Make BlueDolphin the system of record for application decisions.",
+        "dependencies": [],
+        "effortBD": null,
+        "effortCustomer": null
+      }
+    ]
+  },
+  {
+    "id": "g4b80x9",
+    "name": "Strategic planning",
+    "colorIdx": 1,
+    "steps": [
+      {
+        "id": "3ogl791",
+        "stage": "Foundation",
+        "title": "Convention model",
+        "type": "Cross-cutting",
+        "delivery": "Guided session",
+        "description": "Agree on how strategic objects are named and structured.",
+        "dependencies": [],
+        "effortBD": null,
+        "effortCustomer": null
+      },
+      {
+        "id": "b9gvs42",
+        "stage": "Foundation",
+        "title": "Capture company vision and strategic goals",
+        "type": "Core",
+        "delivery": "Guided session",
+        "description": "Translate strategic priorities into structured goal objects.",
+        "dependencies": [],
+        "effortBD": null,
+        "effortCustomer": null
+      },
+      {
+        "id": "1njsdfl",
+        "stage": "Foundation",
+        "title": "Build or import business capability model",
+        "type": "Core",
+        "delivery": "Guided session",
+        "description": "Define the L1/L2 capability model.",
+        "dependencies": [],
+        "effortBD": null,
+        "effortCustomer": null
+      },
+      {
+        "id": "7t7u7em",
+        "stage": "Foundation",
+        "title": "Link strategic goals to capabilities",
+        "type": "Core",
+        "delivery": "Guided session",
+        "description": "Trace each goal to the capabilities it depends on.",
+        "dependencies": [],
+        "effortBD": null,
+        "effortCustomer": null
+      },
+      {
+        "id": "h3exoj8",
+        "stage": "Expanding",
+        "title": "Define current state baseline",
+        "type": "Core",
+        "delivery": "Customer independent",
+        "description": "Document current state using landscape and capability mapping.",
+        "dependencies": [],
+        "effortBD": null,
+        "effortCustomer": null
+      },
+      {
+        "id": "hhxkq7t",
+        "stage": "Expanding",
+        "title": "Design target state architecture",
+        "type": "Core",
+        "delivery": "Guided session",
+        "description": "Model the desired future state.",
+        "dependencies": [],
+        "effortBD": null,
+        "effortCustomer": null
+      },
+      {
+        "id": "g5fdjt7",
+        "stage": "Expanding",
+        "title": "Identify and document architectural debt",
+        "type": "Core",
+        "delivery": "Customer independent",
+        "description": "Surface technical debt and legacy risk.",
+        "dependencies": [],
+        "effortBD": null,
+        "effortCustomer": null
+      },
+      {
+        "id": "nlcikf4",
+        "stage": "Optimising",
+        "title": "Build strategic roadmap",
+        "type": "Core",
+        "delivery": "Guided session",
+        "description": "Sequence initiatives with time horizons and dependencies.",
+        "dependencies": [],
+        "effortBD": null,
+        "effortCustomer": null
+      },
+      {
+        "id": "5hpx2sb",
+        "stage": "Optimising",
+        "title": "Present strategic overview to management",
+        "type": "Core",
+        "delivery": "Guided session",
+        "description": "Use BlueDolphin views to present roadmap.",
+        "dependencies": [],
+        "effortBD": null,
+        "effortCustomer": null
+      },
+      {
+        "id": "8zemmz0",
+        "stage": "Optimising",
+        "title": "Establish strategy review cadence",
+        "type": "Core",
+        "delivery": "Customer independent",
+        "description": "Define a recurring cycle to review and update goals.",
+        "dependencies": [],
+        "effortBD": null,
+        "effortCustomer": null
+      }
+    ]
+  },
+  {
+    "id": "aclu61a",
+    "name": "Process modelling",
+    "colorIdx": 2,
+    "steps": [
+      {
+        "id": "l29snew",
+        "stage": "Foundation",
+        "title": "Convention model",
+        "type": "Cross-cutting",
+        "delivery": "Guided session",
+        "description": "Agree on notation, naming conventions, and ownership rules.",
+        "dependencies": [],
+        "effortBD": null,
+        "effortCustomer": null
+      },
+      {
+        "id": "td74hph",
+        "stage": "Foundation",
+        "title": "Model first process together",
+        "type": "Core",
+        "delivery": "Guided session",
+        "description": "Select one real process and model it end-to-end.",
+        "dependencies": [],
+        "effortBD": null,
+        "effortCustomer": null
+      },
+      {
+        "id": "jhtsaf9",
+        "stage": "Foundation",
+        "title": "Assign process ownership",
+        "type": "Core",
+        "delivery": "Customer independent",
+        "description": "Assign a named owner to each process.",
+        "dependencies": [],
+        "effortBD": null,
+        "effortCustomer": null
+      },
+      {
+        "id": "kuiex69",
+        "stage": "Expanding",
+        "title": "Build out process library per domain",
+        "type": "Core",
+        "delivery": "Customer independent",
+        "description": "Systematically model key processes per domain.",
+        "dependencies": [],
+        "effortBD": null,
+        "effortCustomer": null
+      },
+      {
+        "id": "2x0kzia",
+        "stage": "Expanding",
+        "title": "Model as-is and to-be process variants",
+        "type": "Contextual",
+        "delivery": "Guided session",
+        "description": "Model both current and future versions.",
+        "dependencies": [],
+        "effortBD": null,
+        "effortCustomer": null
+      },
+      {
+        "id": "vzij676",
+        "stage": "Optimising",
+        "title": "Use process models in impact analysis",
+        "type": "Core",
+        "delivery": "Customer independent",
+        "description": "Trace downstream business impact.",
+        "dependencies": [],
+        "effortBD": null,
+        "effortCustomer": null
+      },
+      {
+        "id": "7udpw5o",
+        "stage": "Optimising",
+        "title": "Identify process improvement opportunities",
+        "type": "Core",
+        "delivery": "Guided session",
+        "description": "Analyse the library for inefficiencies.",
+        "dependencies": [],
+        "effortBD": null,
+        "effortCustomer": null
+      }
+    ]
+  },
+  {
+    "id": "5hpud64",
+    "name": "Solution design",
+    "colorIdx": 3,
+    "steps": [
+      {
+        "id": "kywn0y4",
+        "stage": "Foundation",
+        "title": "Convention model",
+        "type": "Cross-cutting",
+        "delivery": "Guided session",
+        "description": "Agree on design notation and object types.",
+        "dependencies": [],
+        "effortBD": null,
+        "effortCustomer": null
+      },
+      {
+        "id": "7l9aaqu",
+        "stage": "Foundation",
+        "title": "Select first design case",
+        "type": "Core",
+        "delivery": "Guided session",
+        "description": "Identify a real project for the first design.",
+        "dependencies": [],
+        "effortBD": null,
+        "effortCustomer": null
+      },
+      {
+        "id": "ebk3xj7",
+        "stage": "Foundation",
+        "title": "Model as-is and to-be architecture",
+        "type": "Core",
+        "delivery": "Guided session",
+        "description": "Document current and proposed solution.",
+        "dependencies": [],
+        "effortBD": null,
+        "effortCustomer": null
+      },
+      {
+        "id": "eg44w6o",
+        "stage": "Expanding",
+        "title": "Establish solution design templates",
+        "type": "Core",
+        "delivery": "Guided session",
+        "description": "Create reusable templates in BlueDolphin.",
+        "dependencies": [],
+        "effortBD": null,
+        "effortCustomer": null
+      },
+      {
+        "id": "md5pmm4",
+        "stage": "Expanding",
+        "title": "Link solution designs to landscape and roadmap",
+        "type": "Core",
+        "delivery": "Customer independent",
+        "description": "Connect approved designs to applications.",
+        "dependencies": [],
+        "effortBD": null,
+        "effortCustomer": null
+      },
+      {
+        "id": "2ve2tv6",
+        "stage": "Optimising",
+        "title": "Retrospect on design decisions and patterns",
+        "type": "Core",
+        "delivery": "Guided session",
+        "description": "Review completed designs for patterns.",
+        "dependencies": [],
+        "effortBD": null,
+        "effortCustomer": null
+      },
+      {
+        "id": "swigrc6",
+        "stage": "Optimising",
+        "title": "Require design artefact in project intake",
+        "type": "Core",
+        "delivery": "Customer independent",
+        "description": "Make a design mandatory for intake.",
+        "dependencies": [],
+        "effortBD": null,
+        "effortCustomer": null
+      }
+    ]
+  },
+  {
+    "id": "8226tt4",
+    "name": "Projects",
+    "colorIdx": 4,
+    "steps": [
+      {
+        "id": "i1o91rg",
+        "stage": "Foundation",
+        "title": "Convention model",
+        "type": "Cross-cutting",
+        "delivery": "Guided session",
+        "description": "Agree on project object attributes and lifecycle.",
+        "dependencies": [],
+        "effortBD": null,
+        "effortCustomer": null
+      },
+      {
+        "id": "3ctixlr",
+        "stage": "Foundation",
+        "title": "Register active architecture projects",
+        "type": "Core",
+        "delivery": "Customer independent",
+        "description": "Enter active architecture projects.",
+        "dependencies": [],
+        "effortBD": null,
+        "effortCustomer": null
+      },
+      {
+        "id": "kve54j8",
+        "stage": "Foundation",
+        "title": "Link projects to affected applications",
+        "type": "Core",
+        "delivery": "Customer independent",
+        "description": "Record which applications each project changes.",
+        "dependencies": [],
+        "effortBD": null,
+        "effortCustomer": null
+      },
+      {
+        "id": "48mjnk8",
+        "stage": "Expanding",
+        "title": "Track project status and architecture impact",
+        "type": "Core",
+        "delivery": "Guided session",
+        "description": "Maintain lifecycle states and communicate progress.",
+        "dependencies": [],
+        "effortBD": null,
+        "effortCustomer": null
+      },
+      {
+        "id": "tr3wl9y",
+        "stage": "Optimising",
+        "title": "Use portfolio for architecture investment decisions",
+        "type": "Core",
+        "delivery": "Guided session",
+        "description": "Analyse portfolio for investment decisions.",
+        "dependencies": [],
+        "effortBD": null,
+        "effortCustomer": null
+      },
+      {
+        "id": "fas9lt5",
+        "stage": "Optimising",
+        "title": "Close the loop: update landscape on completion",
+        "type": "Core",
+        "delivery": "Customer independent",
+        "description": "Update landscape on project closure.",
+        "dependencies": [],
+        "effortBD": null,
+        "effortCustomer": null
+      }
+    ]
+  },
+  {
+    "id": "yhvzuyg",
+    "name": "Data modelling",
+    "colorIdx": 5,
+    "steps": [
+      {
+        "id": "08tx41n",
+        "stage": "Foundation",
+        "title": "Convention model",
+        "type": "Cross-cutting",
+        "delivery": "Guided session",
+        "description": "Agree on entity naming and relationship types.",
+        "dependencies": [],
+        "effortBD": null,
+        "effortCustomer": null
+      },
+      {
+        "id": "9r7l0wc",
+        "stage": "Foundation",
+        "title": "Define scope and level of abstraction",
+        "type": "Core",
+        "delivery": "Guided session",
+        "description": "Agree on domains and logical level modelling.",
+        "dependencies": [],
+        "effortBD": null,
+        "effortCustomer": null
+      },
+      {
+        "id": "a7f49s9",
+        "stage": "Foundation",
+        "title": "Model first domain — entities and relationships",
+        "type": "Core",
+        "delivery": "Guided session",
+        "description": "Model core entities and relationships for one domain.",
+        "dependencies": [],
+        "effortBD": null,
+        "effortCustomer": null
+      },
+      {
+        "id": "97st9l7",
+        "stage": "Foundation",
+        "title": "Assign data ownership per entity",
+        "type": "Core",
+        "delivery": "Customer independent",
+        "description": "Record a named owner for each entity.",
+        "dependencies": [],
+        "effortBD": null,
+        "effortCustomer": null
+      },
+      {
+        "id": "xdkh74z",
+        "stage": "Expanding",
+        "title": "Build out logical data model per domain",
+        "type": "Core",
+        "delivery": "Customer independent",
+        "description": "Systematically model entities for each domain.",
+        "dependencies": [],
+        "effortBD": null,
+        "effortCustomer": null
+      },
+      {
+        "id": "hejvw0a",
+        "stage": "Expanding",
+        "title": "Map data flows between applications",
+        "type": "Core",
+        "delivery": "Guided session",
+        "description": "Identify how key entities flow between applications.",
+        "dependencies": [],
+        "effortBD": null,
+        "effortCustomer": null
+      },
+      {
+        "id": "e0b4di3",
+        "stage": "Optimising",
+        "title": "Use data model in solution design",
+        "type": "Core",
+        "delivery": "Guided session",
+        "description": "Reference data model when designing solutions.",
+        "dependencies": [],
+        "effortBD": null,
+        "effortCustomer": null
+      },
+      {
+        "id": "42hu2w2",
+        "stage": "Optimising",
+        "title": "Identify master data gaps and ownership conflicts",
+        "type": "Core",
+        "delivery": "Guided session",
+        "description": "Find entities without a clear master source.",
+        "dependencies": [],
+        "effortBD": null,
+        "effortCustomer": null
+      }
+    ]
+  },
+  {
+    "id": "wydj87h",
+    "name": "Technical architecture",
+    "colorIdx": 6,
+    "steps": [
+      {
+        "id": "idzuwpx",
+        "stage": "Foundation",
+        "title": "Convention model",
+        "type": "Cross-cutting",
+        "delivery": "Guided session",
+        "description": "Agree on object types and lifecycle states for technology.",
+        "dependencies": [],
+        "effortBD": null,
+        "effortCustomer": null
+      },
+      {
+        "id": "9j7nqmj",
+        "stage": "Foundation",
+        "title": "Inventory platforms and infrastructure",
+        "type": "Core",
+        "delivery": "Guided session",
+        "description": "Register platforms, runtimes, and infrastructure.",
+        "dependencies": [],
+        "effortBD": null,
+        "effortCustomer": null
+      },
+      {
+        "id": "01h1m8b",
+        "stage": "Foundation",
+        "title": "Link technology components to applications",
+        "type": "Core",
+        "delivery": "Customer independent",
+        "description": "Record which platform each application runs on.",
+        "dependencies": [],
+        "effortBD": null,
+        "effortCustomer": null
+      },
+      {
+        "id": "fzoofqb",
+        "stage": "Foundation",
+        "title": "Set lifecycle status per technology component",
+        "type": "Core",
+        "delivery": "Customer independent",
+        "description": "Tag each component with its lifecycle state.",
+        "dependencies": [],
+        "effortBD": null,
+        "effortCustomer": null
+      },
+      {
+        "id": "a94a43v",
+        "stage": "Expanding",
+        "title": "Define technology standards and principles",
+        "type": "Core",
+        "delivery": "Guided session",
+        "description": "Document approved standards and link to reference architecture.",
+        "dependencies": [],
+        "effortBD": null,
+        "effortCustomer": null
+      },
+      {
+        "id": "4mv0x8a",
+        "stage": "Expanding",
+        "title": "Map deployment patterns",
+        "type": "Core",
+        "delivery": "Customer independent",
+        "description": "Document recurring deployment patterns.",
+        "dependencies": [],
+        "effortBD": null,
+        "effortCustomer": null
+      },
+      {
+        "id": "iwgr7qn",
+        "stage": "Optimising",
+        "title": "Use technology view in governance and project intake",
+        "type": "Core",
+        "delivery": "Guided session",
+        "description": "Make technology layer mandatory in reviews.",
+        "dependencies": [],
+        "effortBD": null,
+        "effortCustomer": null
+      },
+      {
+        "id": "htnhqro",
+        "stage": "Optimising",
+        "title": "Build technology rationalisation analysis",
+        "type": "Core",
+        "delivery": "Guided session",
+        "description": "Identify redundant or underutilised platforms.",
+        "dependencies": [],
+        "effortBD": null,
+        "effortCustomer": null
+      }
+    ]
+  }
+]
