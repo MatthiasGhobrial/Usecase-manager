@@ -55,6 +55,8 @@ interface Step {
   dependencies: { ucId: string; stepId: string }[]
   effortBD: number | null
   effortCustomer: number | null
+  hasExistingContent?: boolean
+  existingContentLink?: string | null
 }
 
 interface Usecase {
@@ -141,7 +143,7 @@ const defaultUsecases = (): Usecase[] => [
 ]
 
 function mk(stage: string, title: string, type: string, delivery: string, desc: string): Step {
-  return { id: uid(), stage, title, type, delivery, description: desc, dependencies: [], effortBD: null, effortCustomer: null }
+  return { id: uid(), stage, title, type, delivery, description: desc, dependencies: [], effortBD: null, effortCustomer: null, hasExistingContent: false, existingContentLink: null }
 }
 
 function lookupStep(usecases: Usecase[], ucId: string, stepId: string) {
@@ -315,6 +317,8 @@ export default function BlueDolphinUsecaseEditor() {
         dependencies: [],
         effortBD: null,
         effortCustomer: null,
+        hasExistingContent: false,
+        existingContentLink: null,
       }
       setUsecases((prev) => prev.map((u, i) => (i !== activeIdx ? u : { ...u, steps: [...u.steps, s] })))
       setDirty()
@@ -696,6 +700,18 @@ function StepCard({
               {step.dependencies.length}🔗
             </Text>
           )}
+          {step.hasExistingContent && step.existingContentLink && (
+            <a
+              href={step.existingContentLink}
+              target="_blank"
+              rel="noreferrer"
+              onClick={(e) => e.stopPropagation()}
+              title={step.existingContentLink}
+              style={{ fontSize: 9, padding: "2px 4px", borderRadius: 10, background: "#E6F1FB", color: "#0C447C", textDecoration: "none" }}
+            >
+              🔗 link
+            </a>
+          )}
           {(step.effortBD != null || step.effortCustomer != null) && (
             <HStack gap={0.5}>
               {step.effortBD != null && (
@@ -813,6 +829,29 @@ function StepCard({
               rows={3}
               style={{ ...inp, resize: "vertical", lineHeight: 1.5 }}
             />
+          </Box>
+
+          <Box mt={2.5}>
+            <label style={{ display: "flex", alignItems: "center", gap: 6, fontSize: 11, cursor: "pointer", color: "#555" }}>
+              <input
+                type="checkbox"
+                checked={!!step.hasExistingContent}
+                onChange={(e) => onUpdate({ hasExistingContent: e.target.checked })}
+              />
+              Has existing content/defined service
+            </label>
+            {step.hasExistingContent && (
+              <Box mt={1.5}>
+                <Text fontSize={10} color="gray.500" mb={0.5}>Link to existing content/service</Text>
+                <input
+                  type="url"
+                  placeholder="https://…"
+                  defaultValue={step.existingContentLink ?? ""}
+                  onBlur={(e) => onUpdate({ existingContentLink: e.target.value || null })}
+                  style={inp}
+                />
+              </Box>
+            )}
           </Box>
 
           <Box mt={2.5}>
