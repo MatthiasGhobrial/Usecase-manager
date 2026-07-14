@@ -190,10 +190,10 @@
       {
         "id": "b9gvs42",
         "stage": "Foundation",
-        "title": "Capture company vision and strategic goals",
+        "title": "Capture companyCapture company goals and strategy vision and strategic goals",
         "type": "Core",
         "delivery": "Guided session",
-        "description": "Translate strategic priorities into structured goal objects.",
+        "description": "Translate strategic priorities into structured goal and course of action/strategy objects in BlueDolphin",
         "dependencies": [],
         "effortBD": null,
         "effortCustomer": null
@@ -204,7 +204,7 @@
         "title": "Build or import business capability model",
         "type": "Core",
         "delivery": "Guided session",
-        "description": "Define the L1/L2 capability model.",
+        "description": "Define the L1/L2 capability model representing what the organisation does, independent of structure or systems. Could be in tandem with an inspiration session prior.",
         "dependencies": [],
         "effortBD": null,
         "effortCustomer": null
@@ -215,7 +215,7 @@
         "title": "Link strategic goals to capabilities",
         "type": "Core",
         "delivery": "Guided session",
-        "description": "Trace each goal to the capabilities it depends on.",
+        "description": "Link the strategy (course of action) to a specific capability. ",
         "dependencies": [],
         "effortBD": null,
         "effortCustomer": null
@@ -282,6 +282,39 @@
         "type": "Core",
         "delivery": "Customer independent",
         "description": "Define a recurring cycle to review and update goals.",
+        "dependencies": [],
+        "effortBD": null,
+        "effortCustomer": null
+      },
+      {
+        "id": "y779i0x",
+        "stage": "Foundation",
+        "title": "Setup assesment scorecards for your capabilities",
+        "type": "Core",
+        "delivery": "Guided session",
+        "description": "Setup the scorecards of the current and ambition of all capabilities, only do initially for the capabilities which are linked to the strategy so far.",
+        "dependencies": [],
+        "effortBD": null,
+        "effortCustomer": null
+      },
+      {
+        "id": "kp0ji9t",
+        "stage": "Foundation",
+        "title": "create a gap analysis",
+        "type": "Core",
+        "delivery": "Guided session",
+        "description": "Create an overview of the difference between the current and ambition of your capabilities",
+        "dependencies": [],
+        "effortBD": null,
+        "effortCustomer": null
+      },
+      {
+        "id": "pmammjm",
+        "stage": "Foundation",
+        "title": "Are the goals specific enough to define the bridges to the identified gaps",
+        "type": "Core",
+        "delivery": "Guided session",
+        "description": "Review whether the goals are actually allowing you to bridge the gaps which have been identified. This doesn't mean all goals in the organization need to be setup again, but might help reshape them to some extent",
         "dependencies": [],
         "effortBD": null,
         "effortCustomer": null
